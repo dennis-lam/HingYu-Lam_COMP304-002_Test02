@@ -12,9 +12,9 @@
         android:layout_height="wrap_content"
         android:text="Pharmacy Name"
         android:textSize="16sp"
-        android:gravity="center_horizontal"
+        android:gravity="start"
         android:padding="8dp"
-        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintWidth_percent="0.4"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/date_header_text_view"/>
@@ -25,9 +25,9 @@
         android:layout_height="wrap_content"
         android:text="Date"
         android:textSize="16sp"
-        android:gravity="center_horizontal"
+        android:gravity="start"
         android:padding="8dp"
-        app:layout_constraintWidth_percent="0.3"
+        app:layout_constraintWidth_percent="0.4"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/pharmacy_name_header_text_view"
         app:layout_constraintEnd_toStartOf="@id/time_header_text_view"/>
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:text="Time"
         android:textSize="16sp"
-        android:gravity="center_horizontal"
+        android:gravity="start"
         android:padding="8dp"
         app:layout_constraintWidth_percent="0.2"
         app:layout_constraintTop_toTopOf="parent"
@@ -46,7 +46,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/detailed_recycler_view"
+        android:id="@+id/details_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
