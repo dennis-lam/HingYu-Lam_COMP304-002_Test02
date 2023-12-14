@@ -14,7 +14,7 @@
         android:textSize="16sp"
         android:gravity="start"
         android:padding="8dp"
-        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintWidth_percent="0.5"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/date_header_text_view"/>
@@ -27,7 +27,7 @@
         android:textSize="16sp"
         android:gravity="start"
         android:padding="8dp"
-        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintWidth_percent="0.3"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/pharmacy_name_header_text_view"
         app:layout_constraintEnd_toStartOf="@id/time_header_text_view"/>
