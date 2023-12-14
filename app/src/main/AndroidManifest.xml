@@ -13,7 +13,17 @@
         android:theme="@style/Theme.HingYuLam_COMP304002_Test02"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".VaccineDetailsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VaccineLocationActivity" />
+        </activity>
+        <activity
+            android:name=".VaccineLocationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
